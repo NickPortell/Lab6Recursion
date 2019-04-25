@@ -10,26 +10,34 @@ namespace Lab6
     {
         static void Main(string[] args)
         {
-            string keepRun = "y";
+            string keepRun = "y", test;
+            int user;
+            Random sides = new Random();
 
             while (keepRun == "y")
             {
                 Console.WriteLine("How many sides would you like on these pair of dice? ");
-                int user = int.Parse(Console.ReadLine());
+                test = Console.ReadLine();
+                bool notNum = int.TryParse(test, out user);
 
 
-                if (user >= 4)
+                if (notNum == false)
                 {
-                    Console.WriteLine("Here are your results: ");
-
-                    for (int i = 0; i < 2; i++)
-                    {
-                        Console.WriteLine(RollDice(user));
-                    }
+                    Console.WriteLine("That is not a number..");
                 }
                 else
                 {
-                    Console.WriteLine("That's not possible..");
+                    if (user >= 4)
+                    {
+                        for (int i = 0; i < 2; i++)
+                        {
+                            Console.WriteLine(RollDice(user,sides));
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("That's not a possible dice.");
+                    }
                 }
 
                 Console.WriteLine("Would you like to keep playing? y or n");
@@ -38,13 +46,12 @@ namespace Lab6
 
         }
 
-            public static int RollDice(int num)
-            {
-                Random sides = new Random();
-                int roll;
-                return roll = sides.Next(1, num + 1);
-            }
-        
+        public static int RollDice(int num, Random sides)
+        {
+            int roll;
+            return roll = sides.Next(1, num + 1);
+        }
+       
     }
 }
 

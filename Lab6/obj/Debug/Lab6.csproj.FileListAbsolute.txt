@@ -5,3 +5,10 @@ C:\GrandCircus\Documents\Lab exercises\Lab6\Lab6\obj\Debug\Lab6.csprojAssemblyRe
 C:\GrandCircus\Documents\Lab exercises\Lab6\Lab6\obj\Debug\Lab6.csproj.CoreCompileInputs.cache
 C:\GrandCircus\Documents\Lab exercises\Lab6\Lab6\obj\Debug\Lab6.exe
 C:\GrandCircus\Documents\Lab exercises\Lab6\Lab6\obj\Debug\Lab6.pdb
+F:\GrandCircus\Documents\Lab6Recursion\Lab6\bin\Debug\Lab6.exe.config
+F:\GrandCircus\Documents\Lab6Recursion\Lab6\bin\Debug\Lab6.exe
+F:\GrandCircus\Documents\Lab6Recursion\Lab6\bin\Debug\Lab6.pdb
+F:\GrandCircus\Documents\Lab6Recursion\Lab6\obj\Debug\Lab6.csprojAssemblyReference.cache
+F:\GrandCircus\Documents\Lab6Recursion\Lab6\obj\Debug\Lab6.csproj.CoreCompileInputs.cache
+F:\GrandCircus\Documents\Lab6Recursion\Lab6\obj\Debug\Lab6.exe
+F:\GrandCircus\Documents\Lab6Recursion\Lab6\obj\Debug\Lab6.pdb
